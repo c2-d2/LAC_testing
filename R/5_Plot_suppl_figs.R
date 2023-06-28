@@ -1,7 +1,7 @@
 # Fig.S1
 LA_bin_tests <- Data_master_weekly %>%
   group_by(epi_week) %>%
-  filter(epi_week != max(Data_master_weekly_3$epi_week)) %>%
+  filter(epi_week != max(Data_master_weekly$epi_week)) %>%
   summarise(Total = sum(total_tests),
             Positive = sum(new_pos_t)) %>%
   mutate(Negative = Total - Positive) %>%
