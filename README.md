@@ -18,6 +18,9 @@ Testing and vaccination data are from L.A. County Department of Public Health.
 
 Note that in this publicly available dataset, cells containing a value of 1 to 11 were suppressed.
 
+## Codes
+To reproduce figures and outputs, R codes for data processing, model development and evaluation are available in the `R` folder.
+
 ## Acknowledgements
 
 Funding: Surveillance efforts were supported by a cooperative agreement awarded by the Department of Health and Human Services (HHS) with funds made available under the Coronavirus Preparedness and Response Supplemental Appropriations Act, 2020 (P.L. 116-123); the Coronavirus Aid, Relief, and Economic Security Act, 2020 (the “CARES Act”) (P.L. 116-136); the Paycheck Protection Program and Health Care Enhancement Act (P.L. 116-139); the Consolidated Appropriations Act and the Coronavirus Response and Relief Supplement Appropriations Act, 2021 (P.L. 116-260) and/or the American Rescue Plan of 2021 (P.L. 117-2). 
